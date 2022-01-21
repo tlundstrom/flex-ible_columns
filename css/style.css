@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+}
+
+.row>*{
+    background-color: lightblue;
+    margin: 10px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.col{
+    
+    flex:1;
+    
+}
+
+.col-2{
+    flex:2;
+    
+}
+
+.col-3{
+    flex:3;
+}
